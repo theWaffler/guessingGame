@@ -1,1 +1,83 @@
-/target
+# Rust specific
+/target/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows Recycle Bin
+$RECYCLE.BIN/
+
+# Windows shortcut files
+*.lnk
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows system files
+[Systeme][Dd]rives
+*.hds
+hiberfil.sys
+pagefile.sys
+swapfile.sys
+
+# Temporary files
+[Tt]emp/
+[Tt]mp/
+*~
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Application data
+AppData/
+
+# Compiled binary and bytecode files
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+
+# Build folders
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pdb
+*.ilk
+*.aps
+*.pch
+*.vs/
+*.vscode/
+
+# Node.js dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+ENV/
+
+# Other common development tools
+*.log
+*.sql
+*.sqlite
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
