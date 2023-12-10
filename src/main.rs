@@ -1,11 +1,15 @@
+use std::io::{self, Write};
+
 fn main() {
-    printlin!("Guess the fucking number!");
-    printlin!("Please input your guess.");
+    println!("Guess the fucking number!"); // adds new line
+    print!("Please input your guess: "); // doesnt add new line
 
-    let mut guess = Striong::new();
+    io::stdout().flush().expect("Failed to flush stdout"); // Flush the buffer
 
-    io:stdin()
+    let mut guess = String::new();
+
+    io::stdin()
         .read_line(&mut guess) //mutable. default is immutable
         .expect("Failed to read line");
-    printlin!("You Guess: {guess}");
+    println!("You Guess: {}", guess.trim());
 }
