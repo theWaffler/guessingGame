@@ -1,4 +1,5 @@
 use std::io::{self, Write};
+use std::cmp::Ordering;
 use rand::Rng;
 
 fn main() {
